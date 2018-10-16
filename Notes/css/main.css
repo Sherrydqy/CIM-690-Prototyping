@@ -1,0 +1,47 @@
+body{
+  background: pink;
+  font-family: sans-serif;
+}
+
+h1{
+  color: red;
+}
+
+div{
+
+  color: teal;
+  font-size: 33px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 3px solid orange;
+
+}
+
+.coming-div{
+  border-radius: 3px;
+  background-image: url(../Images/cy.jpg);
+  background-size: cover;
+}
+
+.album-div{
+  color: purple;
+
+}
+.leftnav{
+  list-style: none;
+}
+
+.leftnav li{
+  padding: 10px;
+  background-color: #ffcc00;
+  border-bottom: 1px solid #ccc;
+  width:200px;
+}
+
+.leftnav li:hover{
+  background: aqua;
+  cursor: pointer;
+}
