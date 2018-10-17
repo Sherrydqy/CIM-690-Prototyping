@@ -64,3 +64,7 @@ class="col-12 col-lg-4 red"
 }
 
 # use inspector to 选择你用的bootstrap现成element，然后去找他们的style，然后你就可以override他们拉 by !important
+
+## col-3 任何设备上都是3；   col-sm-4 大于sm的时候，变成4，
+> col-3 col-sm-4 col-md-5 col-lg-6 后面的一直override前面的
+> 这就是为什么要mobile first，因为从小往大递增，每次都override 前面的，后面没有的话就inherit最后的那个。 顺序不同的话会break

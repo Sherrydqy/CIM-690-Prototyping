@@ -1,0 +1,89 @@
+.topic-pic{
+  padding: 0px;
+}
+
+.topic-text{
+  padding-left: 170px;
+  padding-right: 30px;
+  padding-top: 300px;
+  padding-bottom:20px;
+}
+
+.top-left-header{
+  font-family: 'Sorts Mill Goudy', serif;
+
+}
+
+.wrap{
+  border: 15px solid #E4E4E4;
+}
+
+.wrap-left{
+  border-left: 15px solid #E4E4E4;
+}
+
+.wrap-right{
+  border-right: 15px solid #E4E4E4;
+}
+
+.gray{
+  background: #E4E4E4;
+}
+
+.darkpink{
+  background: #A04732;
+}
+
+.textBg{
+  background-image:url(./assets/bg.jpeg);
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  padding:70px;
+  -moz-background-size:100% 100%;
+}
+
+.shortP{
+  font-size: 22pt;
+  font-family: 'Sorts Mill Goudy', serif;
+
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.nav-link{
+  color: gray;
+  margin-right:100px;
+  margin-left:100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.nav-link.active{
+  color: black;
+}
+
+.nav-link:hover{
+  color:  #A04732;
+}
+
+.footer {
+  background-color: #A04732;
+  height: 50px;
+  margin-top: -50px;
+}
+
+
+.mynav li{
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid #E4E4E4;
+  width:100%;
+}
+
+.mynav li:hover{
+  color: white;
+  background: #A04732;
+  cursor: pointer;
+}
