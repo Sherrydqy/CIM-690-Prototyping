@@ -1,4 +1,13 @@
+.bg-darkpink{
+  background-color: rgb(184,164,155);
+  height:80%;
+  width:100%
+  color:white;
+}
+
+
 .topic-pic{
+  background-image: url(./assets/try.jpeg);
   padding: 0px;
 }
 
@@ -6,12 +15,17 @@
   padding-left: 170px;
   padding-right: 30px;
   padding-top: 300px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
-.top-left-header{
+.header-first{
   font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+}
 
+.header-second{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size:15px;
 }
 
 .wrap{
@@ -42,15 +56,9 @@
   -moz-background-size:100% 100%;
 }
 
-.shortP{
-  font-size: 18pt;
-  font-family: 'Sorts Mill Goudy', serif;
 
-  margin-left: 190px;
-  margin-right: 190px;
-  margin-top: 90px;
-  margin-bottom: 30px;
-}
+
+
 .nav-link{
   color: gray;
   margin-right:100px;
@@ -86,4 +94,53 @@
   color: white;
   background: #A04732;
   cursor: pointer;
+}
+
+
+.shortP{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 8pt;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 7px;
+  margin-bottom: 13px;
+  @include media-breakpoint-up(sm) {
+      font-size: 12pt;
+      margin-left: 70px;
+      margin-right: 70px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+  @include media-breakpoint-up(md) {
+      font-size: 18pt;
+      margin-left: 190px;
+      margin-right: 190px;
+      margin-top: 90px;
+      margin-bottom: 30px;
+  }
+}
+
+
+p {
+  font-size: 8pt;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+@include media-breakpoint-up(sm) {
+    font-size: 12pt;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@include media-breakpoint-up(md) {
+    font-size: 18pt;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
