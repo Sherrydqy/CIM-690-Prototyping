@@ -306,7 +306,7 @@ footer{
     top:160px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:90px;
+    font-size:75px;
     z-index:10px;
     color: rgb(65,59,55,0.5) ;
   }
@@ -379,7 +379,7 @@ footer{
     margin-right: auto;
     left: 25%;
     right: 25%;
-    top:180px;
+    top:190px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size:52px;
@@ -441,7 +441,7 @@ footer{
     margin-right: auto;
     left: 25%;
     right: 25%;
-    top:350px;
+    top:308px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size:34px;
