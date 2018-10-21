@@ -112,7 +112,7 @@ body{
   min-height: 85%;
 }
 
-.table-content .tab-pane .fade .show .active, .nav-item{
+.table-content .tab-pane .fade .show .active .nav-item{
   z-index: 40;
 }
 
