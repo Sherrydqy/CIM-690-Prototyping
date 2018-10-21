@@ -327,7 +327,7 @@ footer{
     top:-25px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:110px;
+    font-size:80px;
     z-index:10px;
     color: rgb(65,59,55,0.3) ;
   }
@@ -342,17 +342,17 @@ footer{
 
   .text-content{
     margin-top:50px;
-    margin-left:100px;
+    margin-left:58px;
     margin-bottom: 20px;
-    margin-right: 100px;
+    margin-right: 58px;
     font-family: 'Lora', serif;
     font-size: 20px;
     color: rgb(65,59,55) ;
   }
 
   .text-content-small{
-    margin-left:100px;
-    margin-right: 100px;
+    margin-left:58px;
+    margin-right: 58px;
     font-family: 'Lora', serif;
     font-size: 14px;
     color: rgb(80,75,68) ;
@@ -382,7 +382,7 @@ footer{
     top:180px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:70px;
+    font-size:52px;
     z-index:10px;
     color: rgb(65,59,55,0.5) ;
   }
@@ -403,7 +403,7 @@ footer{
     top:-14px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:90px;
+    font-size:70px;
     z-index:10px;
     color: rgb(65,59,55,0.3) ;
   }
@@ -418,17 +418,17 @@ footer{
 
   .text-content{
     margin-top:50px;
-    margin-left:100px;
+    margin-left:52px;
     margin-bottom: 20px;
-    margin-right: 100px;
+    margin-right: 52px;
     font-family: 'Lora', serif;
     font-size: 16px;
     color: rgb(65,59,55) ;
   }
 
   .text-content-small{
-    margin-left:100px;
-    margin-right: 100px;
+    margin-left:52px;
+    margin-right: 52px;
     font-family: 'Lora', serif;
     font-size: 11px;
     color: rgb(80,75,68) ;
@@ -441,10 +441,10 @@ footer{
     margin-right: auto;
     left: 25%;
     right: 25%;
-    top:310px;
+    top:350px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:32px;
+    font-size:34px;
     z-index:10px;
     color: rgb(65,59,55,0.5) ;
   }
