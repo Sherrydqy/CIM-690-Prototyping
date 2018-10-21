@@ -377,12 +377,12 @@ footer{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 25%;
-    right: 25%;
+    left: 15%;
+    right: 15%;
     top:190px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:52px;
+    font-size:55px;
     z-index:10px;
     color: rgb(65,59,55,0.5) ;
   }
@@ -439,12 +439,12 @@ footer{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 25%;
-    right: 25%;
+    left: 12%;
+    right: 12%;
     top:308px;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size:34px;
+    font-size:45px;
     z-index:10px;
     color: rgb(65,59,55,0.5) ;
   }
