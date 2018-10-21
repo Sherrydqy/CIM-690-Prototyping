@@ -68,3 +68,14 @@ class="col-12 col-lg-4 red"
 ## col-3 任何设备上都是3；   col-sm-4 大于sm的时候，变成4，
 > col-3 col-sm-4 col-md-5 col-lg-6 后面的一直override前面的
 > 这就是为什么要mobile first，因为从小往大递增，每次都override 前面的，后面没有的话就inherit最后的那个。 顺序不同的话会break
+
+
+## 在html中，元素主要分为行内元素和块级元素；
+
+>行内元素指的是书写完成后不会自动换行，并且元素没有宽和高。
+块级元素写完后会自动换行，有宽高可以修改。
+还有一种特殊的元素叫做行内块元素。
+大致分内是：
+行内元素有：heda   meat   title  lable  span  br  a   style  em  b  i   strong
+块级元素有：body  from  select  textarea  h1-h6 html table  button  hr  p  ol  ul  dl  cnter  div
+行内块元素常见的有： img  input  td  
